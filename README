@@ -1,4 +1,5 @@
 This is a submission for the take home assignment of the Shelby Team at eBay.
+The reserver allows clients to create, read, update and delete reservations for 4 flights at the now fictional Armavia airline. 
 Program is compilable, runnable and all tests pass.
 
 All the given requirements have been satisfied by the program.
