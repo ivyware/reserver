@@ -1,0 +1,18 @@
+This is a submission for the take home assignment of the Shelby Team at eBay.
+Program is compilable, runnable and all tests pass.
+
+All the given requirements have been satisfied by the program.
+
+Assumptions:
+-I added a customer collection in the repository. What if a customer wants to easily see all their current reservations?
+-Changing a reservation means changing the price and checked bags, not the flight itself. That should require deleting and creating a new reservation.
+-Some logic should be enforced by the client. Customer should only be allowed to pick valid flights in the client application.
+-Program should throw an error if a customer attempts to create a reservation that already exists.
+-It's useful to have a way to read current reservations even though it's not explicitly given as a requirement
+-All requests are designed to be performed on average in constant time - O(N)
+-Seat selection consists of automatically assigning the first available seat from a list to a customer, returning it when the reservation is cancelled
+
+Constraints from a lack of time:
+-Logging is limited
+-Test coverage supports the given requirements of the assignment but is not 100% of all possible scenarios
+-Not all concurrency issues are handled (what if the flight gets cancelled after the customer loads the flight list but before they request a reservation).
